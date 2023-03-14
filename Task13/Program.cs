@@ -10,7 +10,7 @@ int A;
 Console.Write($"Введите число: ");
 int.TryParse(Console.ReadLine()!, out A);
 
-/*if (A > 99)
+if (A > 99)
 {
     while (A > 999)
     {
@@ -21,6 +21,6 @@ int.TryParse(Console.ReadLine()!, out A);
 else
 {
     Console.WriteLine($"{A} -> третьей цифры нет");
-}*/
+}
 
 
